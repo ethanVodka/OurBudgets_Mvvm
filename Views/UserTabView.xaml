@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="OurBudgets.Views.UserTabView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <Grid>
+       
+        <StackPanel>
+
+            <Label Content="UserTabView"
+                   FontSize="50"
+                   HorizontalAlignment="Center"
+                   Foreground="Black"/>
+            <Label Content="{Binding Label}"
+                   FontSize="30"
+                   HorizontalAlignment="Center"/>
+
+            <TextBox/>
+
+        </StackPanel>
+       
+    </Grid>
+</UserControl>
